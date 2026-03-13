@@ -66,8 +66,15 @@ If you want VS Code terminal debugging to auto-load `.env`, enable:
 
 ## Optional automation
 
-You can use `push_to_github.bat` (if present) to auto-add/commit/push changes quickly.
+- Use `run-tests.ps1` to quickly run dependencies + scripts.
+- Use `push_to_github.bat` (if present) to auto-add/commit/push changes quickly.
 
 ---
 
-If you want, I can also create a simple `requirements.txt` and one-line `run-tests.ps1` to make future test runs even faster.
+### Quick run script
+
+Run:
+```powershell
+cd "P:\My Drive\!\PROJECTS\Test\repo"
+.\run-tests.ps1
+```
